@@ -1,0 +1,129 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+    font-family: 'Helvetica Neue',Tahoma;
+	height: 100%;
+    background: url(../img/background.jpg) no-repeat 50% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ .center{
+      margin: auto;
+    width: 480px;
+    background: rgba(0,0,0,0.6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ .image{
+
+    width: 100%;
+    overflow: hidden;
+ }
+
+.headcenter{
+    line-height: 85px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid #c57f81;
+    color: white;
+}
+
+	.blok{
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+.inputWrap input{
+    color: white;
+    font-family: 'Helvetica Neue';
+    outline:0;
+    text-align: center;
+    margin: 20px 10px 0px;
+    border: 0;
+    width: 258px;
+    background: transparent;
+    padding: 11px;
+    border-bottom: 1px solid grey;
+}
+
+.inputWrap input:hover{
+    display: inline;
+}
+
+
+
+.create{
+    padding: 35px;
+	text-align: center;
+}
+
+
+
+.create button{
+    outline: none;
+    cursor: pointer;
+ 	border: 1px solid white;
+ 	width: 70px;
+    height: 70px;
+    background:  rgba(0,0,0,0.1);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.create button:hover {
+    background: rgba(0,0,0,0.6);
+     transition: 1s;
+}
+
+.create button:active {
+    background:  rgba(0,0,0,0.7)
+}
+
+
+.create i{
+color: white;
+}
+
+.error{
+    /*display: none;*/
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    color: white;
+    padding: 11px 16px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 40px;
+}
+
+
+.error i{
+    margin-right: 5px;
+}
+
+
+
+
