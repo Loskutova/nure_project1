@@ -56,6 +56,19 @@ body{
 	margin: 0 auto;
 }
 
+.inputLogin input{
+    color: white;
+    font-family: 'Helvetica Neue';
+    outline:0;
+    margin: 20px 10px 0px;
+    border: 0;
+    width: 258px;
+    background: transparent;
+    padding: 11px;
+    border-bottom: 1px solid grey;
+}
+
+
 
 .inputWrap input{
     color: white;
@@ -96,7 +109,7 @@ body{
 }
 .create button:hover {
     background: rgba(0,0,0,0.6);
-     transition: 1s;
+    transition: 1s;
 }
 
 .create button:active {
@@ -106,6 +119,22 @@ body{
 
 .create i{
 color: white;
+}
+
+.create span {
+    margin: 9px;
+    font-family: 'Helvetica Neue';
+    color: lightgrey;
+    display: inline-block;
+}
+.create span a{
+    font-weight: bold;
+    color: #bf6a6f;
+    text-decoration: none;
+    font-size: 18px;
+}
+.create span a:hover{
+    text-decoration: underline;
 }
 
 .error{
